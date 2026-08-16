@@ -1,0 +1,60 @@
+.group-detail-page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.group-detail-loading {
+  text-align: center;
+  padding: 3rem 0;
+  color: var(--color-text-muted);
+}
+
+.group-detail-header {
+  margin-bottom: 2.5rem;
+}
+
+.group-detail-header h1 {
+  font-size: 1.9rem;
+  margin-bottom: 0.4rem;
+}
+
+.group-detail-header p {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
+.group-detail-section {
+  margin-bottom: 2.5rem;
+}
+
+.group-detail-section h2 {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
+
+.group-detail-empty {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+.pending-member-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 0.85rem 1.1rem;
+  margin-bottom: 0.6rem;
+  font-size: 0.9rem;
+}
+
+.approve-btn {
+  background-color: var(--color-gold);
+  color: var(--color-navy);
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.45rem 1rem;
+  border: none;
+  border-radius: 6px;
+}

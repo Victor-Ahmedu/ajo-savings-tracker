@@ -1,0 +1,23 @@
+.member-card {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.85rem;
+}
+
+.member-card-info h4 {
+  color: var(--color-navy);
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.member-total {
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+}

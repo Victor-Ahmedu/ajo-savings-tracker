@@ -1,0 +1,76 @@
+.dashboard-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.dashboard-page h1 {
+  font-size: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.dashboard-loading {
+  text-align: center;
+  color: var(--color-text-muted);
+  padding: 3rem 0;
+}
+
+.dashboard-empty {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+}
+
+.dashboard-empty p {
+  color: var(--color-text-muted);
+  margin-bottom: 1rem;
+}
+
+.dashboard-empty-link {
+  color: var(--color-navy);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid var(--color-gold);
+  padding-bottom: 2px;
+}
+
+.groups-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+
+.group-card {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.group-card:hover {
+  border-color: var(--color-gold);
+  transform: translateY(-2px);
+}
+
+.group-card h3 {
+  color: var(--color-navy);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.group-card-detail {
+  color: var(--color-text);
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.group-card-creator {
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+}

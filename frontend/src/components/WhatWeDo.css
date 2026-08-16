@@ -1,0 +1,17 @@
+.what-we-do {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 0.5rem;
+  text-align: center;
+}
+
+.what-we-do h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.what-we-do p {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  line-height: 1.7;
+}

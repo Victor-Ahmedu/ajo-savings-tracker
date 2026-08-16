@@ -1,0 +1,8 @@
+.footer {
+  background-color: var(--color-navy);
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.85rem;
+  margin-top: auto;
+}
