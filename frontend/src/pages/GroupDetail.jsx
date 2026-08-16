@@ -6,7 +6,7 @@ import MemberCard from "../components/MemberCard";
 import AdminPanel from "../components/AdminPanel";
 import "./GroupDetail.css";
 
-const API_URL = "http://localhost:5000";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 function GroupDetail() {
   const { id } = useParams();
